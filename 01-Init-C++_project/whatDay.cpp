@@ -15,5 +15,5 @@ int main() {
     default: cout << "Invalid day"; break;
   }
 
-  return 0
+  return 0;
 }
