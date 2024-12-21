@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-  // 光初始化arr[5]的值，不赋值的元素，默认值为0,
+  // 光初始化arr[5]的值，不赋值的元素，默认值为随机整数
   int arr[5];
 
   // 定义始化数组元素
@@ -13,7 +13,15 @@ int main() {
 
   for (int i = 0; i < 5; i++) {
     cout << arr[i] << endl;
+  }
+
+  for(int i =0; i < 5; i++) {
+
     cout << arr2[i] << endl;
+  }
+
+  for(int i = 0; i < 5; i++) {
+
     cout << arr3[i] << endl;
   }
   return 0;
